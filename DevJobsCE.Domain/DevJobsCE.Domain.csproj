@@ -41,14 +41,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\Core\Entity.cs" />
+    <Compile Include="Entities\Company.cs" />
+    <Compile Include="Entities\Job.cs" />
     <Compile Include="Exceptions\DomainException.cs" />
+    <Compile Include="Interfaces\Repositories\IRepositoryBase.cs" />
+    <Compile Include="Interfaces\Services\IServiceBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\ServiceBase.cs" />
     <Compile Include="ValueObjects\Core\ValueObject.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Interfaces\Repositories\" />
-    <Folder Include="Interfaces\Services\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
