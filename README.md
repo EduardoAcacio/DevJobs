@@ -1,11 +1,11 @@
 # DevJobs
 Projeto voltado para criação de Portal de Vagas de TI no estado do Ceará.
 
-# Licensa
+## Licensa
 MIT
 
-# Criador
-Eduardo Acácio 
-E-mail: acaciosh@gmail.com
-Linkedin: https://www.linkedin.com/in/acacioeduardo/
-Gihub: github.com/eduardoacacio
+## Criador
+Eduardo Acácio <br/>
+E-mail: acaciosh@gmail.com <br/>
+Linkedin: https://www.linkedin.com/in/acacioeduardo/ <br/>
+Gihub: github.com/eduardoacacio <br/>
