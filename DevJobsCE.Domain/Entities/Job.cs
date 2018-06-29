@@ -13,6 +13,8 @@ namespace DevJobsCE.Domain.Entities
             Validate(name, insertionDate, expireDate, active, companyId);
         }
 
+        public Guid JobId { get; set; }
+
         public string Name { get; set; }
 
         public DateTime InsertionDate{ get; set; }
@@ -36,15 +38,6 @@ namespace DevJobsCE.Domain.Entities
             ExpireDate = expireDate;
             Active = active;
             CompanyId = companyId;
-        }
-
-        public void Validate(string name, DateTime insertionDate, DateTime expireDate, bool active, Guid companyId)
-        {
-            DomainException.When(!(id > 0), "ProjectId is invalid");
-            DomainException.When(String.IsNullOrEmpty(name), "Name is invalid");
-            DomainException.When(!(cost > 0), "Cost is invalid");
-            DomainException.When(createDate == null, "Create Date is null");
-            DomainException.When(!(CompanyId > 0), "CompanyId is invalid");
         }
 
         public void Activate()
