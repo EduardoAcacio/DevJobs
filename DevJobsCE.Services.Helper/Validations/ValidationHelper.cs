@@ -6,7 +6,7 @@ namespace DevJobsCE.Services.Helper.Validations
     {
         public static void ForValidId(string propName, Guid id)
         {
-            ForValidId(id, propName + " invalid id");
+            ForValidId(id, propName + " - invalid id");
         }
 
         public static void ForValidId(Guid id, string errorMessage)
@@ -17,7 +17,7 @@ namespace DevJobsCE.Services.Helper.Validations
 
         public static void ForValidId(string propName, int id)
         {
-            ForValidId(id, propName + " invalid id");
+            ForValidId(id, propName + " - invalid id");
         }
 
         public static void ForValidId(int id, string errorMessage)
