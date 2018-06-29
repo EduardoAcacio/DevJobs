@@ -10,7 +10,7 @@ namespace DevJobsCE.Domain.Entities
         public Job(string name, DateTime insertionDate, DateTime expireDate, bool active, Guid companyId)
         {
             SetProperties(name, insertionDate, expireDate, active, companyId);
-            Validate(name, insertionDate, expireDate, active, companyId);
+            //Validate(name, insertionDate, expireDate, active, companyId);
         }
 
         public Guid JobId { get; set; }
